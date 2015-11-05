@@ -1,0 +1,17 @@
+This repository contains several functions for select the most informative unlabeled instances in active learning.
+
+
+1. Expected Error Reduction ［1］
+2. Density weight ［2］
+
+Add toolbox to you path and compile before use.
+addpath(‘./toolbox/libsvm-weights-3.20/matlab’)
+
+Refer to the README in toolbox if you don’t know how to compile.
+
+
+References:
+
+［1］Roy N, Mccallum A. Toward Optimal Active Learning through Sampling Estimation of Error Reduction[C]// Proceedings of the Eighteenth International Conference on Machine LearningMorgan Kaufmann Publishers Inc., 2001:441--448.
+
+［2］Settles B, Craven M. An Analysis of Active Learning Strategies for Sequence Labeling Tasks.[J]. (emnlp), 2008:1070-1079.
