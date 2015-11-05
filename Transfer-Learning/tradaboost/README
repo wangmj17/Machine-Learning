@@ -1,0 +1,11 @@
+The code for "Boosting for Transfer Learning" by Wenyuan Dai, Qiang Yang, Gui-Rong Xue, Yong Yu 
+
+TrAdaBoostTrain.m is for training.
+TrPredict.m is for prediction
+
+example:
+[model,beta] = TrAdaboostTrain(sourcefeatures,sourcelabels,targettrnfeatures,targettrnlabels);
+label = TrPredict(targettestfeatures,model,beta];
+
+Please compile the toolbox and addpath to toolbox before using.
+addpath('./toolbox/libsvm-weights-3.20/matlab');

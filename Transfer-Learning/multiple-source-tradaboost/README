@@ -1,0 +1,11 @@
+The code for "Boosting for transfer learning with multiple sources" by Yi Yao and Gianfranco Doretto.
+
+mstradaboost.m is for training
+mstrpredict.m is for prediction
+
+example:
+[hyp,alpha] = mstradaboost(source,targettrnfeatures,targettrnlabels);
+label = mstrpredict(targettestfeatures,hyp,alpha);
+
+Please compile the toolbox and addpath to toolbox before using.
+addpath('./toolbox/libsvm-weights-3.20/matlab');
