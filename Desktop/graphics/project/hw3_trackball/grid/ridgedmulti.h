@@ -1,5 +1,0 @@
-#ifndef RIDGEDMULTI_H
-#define RIDGEDMULTI_H
-
-#endif // RIDGEDMULTI_H
-
